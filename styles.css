@@ -1,0 +1,100 @@
+        p {
+        font-family: "lato";
+        font-size: 18px;
+        font-weight: 600;
+        color: #333333;
+        position: relative;
+        }
+
+        .background{
+        background-color: hsl(217, 9%, 95%);
+        box-shadow: 0px 0px 10px 0.5px #CCC;
+        margin: auto;
+        width: 900px;
+        height: 1000px;
+        border-radius: 1px;
+        }
+        section {
+        position: relative;
+        padding: 0px 150px 0px 150px;
+        margin: auto;
+        }
+        .heart {
+        background-color: hsl(340,95%,49%);
+        position: relative;
+        margin: auto;
+        top: 100px;
+        height: 100px;
+        width: 100px;
+        transform: rotate(-45deg) scale(0.85);
+        }
+
+        .heart:before {
+        position: absolute;
+        left: 50px;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        content:"";
+        background-color: hsl(340,95%,49%);
+        }
+        .heart:after {
+        position: absolute;
+        top: -50px;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        content:"";
+        background-color: hsl(340,95%,49%);
+        }
+
+        .rectangle_yellow {
+        position: relative;
+        top: 15px;
+        width: 100%;
+        height: 45px;
+        border-radius: 3px;
+        background-color: hsl(41, 93%, 60%);
+        }
+        .paypal {
+        font-size: 20px;
+        text-align: center;
+        left: 10px;
+        top: 10px;
+        }
+        .pal {
+        font-size: 20px;
+        font-weight: 1000;
+        color: hsl(240,30%,60%);
+        text-align: center;
+        left: 40px;
+        top: -34px;
+        }
+        input {
+        padding-left: 15px;
+        text-align: left;
+        width: 100%;
+        height: 35px;
+        font-family: "lato";
+        font-weight: 500;
+        font-size: 18px;
+        font-color: red;
+        border: 0px;
+        box-shadow: 0px 0px 1px 1px #CCCCCC;
+        }
+        form {
+        width: 100%;
+        line-height: 5px;
+        }
+        #card_exp {
+        width: 200px;
+        }
+        .confirm {
+        font-weight: 600;
+        position: relative;
+        top: 20px;
+        width: 100%;
+        height: 45px;
+        border: 2px solid hsl(41, 100%, 50%);
+        background-image: linear-gradient(0deg, hsl(41, 100%, 50%)10px, hsl(41, 93%, 60%)30px);
+        }
